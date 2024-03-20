@@ -1,0 +1,41 @@
+@import "../../variables/variables.scss";
+
+// font
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+.footerr h5 {
+    color: $Black;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "League Spartan", sans-serif;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+.footerr p {
+    font-size: 16px;
+    color: $DarkGray;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 400px) {
+    .footerr h5 {
+        font-size: 17px;
+        word-spacing: 4px;
+        letter-spacing: 4px;
+    }
+
+    .footerr p {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+    .footerr h5 {
+        font-size: 20px;
+        word-spacing: 5px;
+        letter-spacing: 5px;
+    }
+}
